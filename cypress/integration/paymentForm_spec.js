@@ -56,12 +56,12 @@ describe("Payment Form", () => {
     });
 
     describe("Text Inputs", () => {
-      it("should have an name input with Name as placeholder", () => {
+      it("should have a required name input", () => {
         cy.get("#name").should("have.attr", "type", "text");
         cy.get("#name").should("have.attr", "required");
       });
 
-      it("should have an email input with Email as placeholder", () => {
+      it("should have a required email input", () => {
         cy.get("#email").should("have.attr", "type", "email");
         cy.get("#email").should("have.attr", "required");
       });
@@ -92,14 +92,14 @@ describe("Payment Form", () => {
     });
 
     describe("Credit Card", () => {
-      it("should have an Credit Card input with a placeholder", () => {
+      it("should have a required Credit Card input with a placeholder", () => {
         cy.get("input[placeholder='xxxx xxxx xxxx xxxx']").should(
           "have.attr",
           "required"
         );
       });
 
-      it("should have an Expiration input with an id of 'expiration-date'", () => {
+      it("should have a required Expiration input with an id of 'expiration-date'", () => {
         cy.get("#expiration-date").should("have.attr", "type", "text");
         cy.get("#expiration-date").should("have.attr", "required");
       });
