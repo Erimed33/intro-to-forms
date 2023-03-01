@@ -30,7 +30,7 @@ This will open the Cypress testing window, where you can click to run an individ
 
 ## Instructions
 
-Make a file `payment-form.html` that displays a form to enter payment information. It should like similar to this:
+Update the `payment-form.html` file to display a form for entering payment information. It should like similar to this:
 
 ![paymentFromImage](./images/paymentForm.png)
 
