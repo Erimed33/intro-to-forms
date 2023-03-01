@@ -46,17 +46,17 @@ In addition to looking similar to the image above, make sure you meet the follow
 
 - [ ] When a radio button is clicked, the other radio buttons should be de-selected.
 
-- [ ] The Name field should be a text input, have a corresponding label tag, and have an id of `name`.
+- [ ] The Name field should be a text input, have a corresponding label tag, have an id of `name`, and be required.
 
-- [ ] The Email field should be an email input, have a corresponding label tag, and have am id of `email`.
+- [ ] The Email field should be an email input, have a corresponding label tag, have am id of `email`, and be required.
 
 - [ ] The Dropdown should include four options: "Visa", "Mastercard", "American Express", and "Discover".
 
 - [ ] The Dropdown option's values should be "visa", "mastercard", "american-express", and "discover".
 
-- [ ] The Credit Card field should be a `tel` type and have a placeholder of `xxxx xxxx xxxx xxxx`.
+- [ ] The Credit Card field should be a `tel` type, have a placeholder of `xxxx xxxx xxxx xxxx`, and be required.
 
-- [ ] The Expiration Date field should be a `text` type, have a corresponding label tag, and should have an id of `expiration-date`.
+- [ ] The Expiration Date field should be a `text` type, have a corresponding label tag, should have an id of `expiration-date`, and be required.
 
 ### Bonus
 
