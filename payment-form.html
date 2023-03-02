@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Payment Form</h1>
+
+   
+        <p>Required fields are marked by *</p>
+
+    <form>
+    <fieldset>
+        <legend>Contact Information</legend>
+            <!--Radio Button Grouping-->
+    
+            <div>
+            <label><input id="gender-unidentified" name="gender" type="radio" value="unidentified" checked/>
+            Mx. </label></div>
+
+            <div>
+            <label><input id="gender-male" name="gender" type="radio" value="married" />
+            Mr. </label></div>
+                
+            <div>
+            <label><input id="gender-female" name="gender" type="radio" value="single" />
+            Ms.
+            </label></div>
+
+            <div>
+            <label><input id="gender-female" name="gender" type="radio" value="married" />
+            Mrs.
+            </label></div>
+
+            <div>
+            <label for="name">Name</label></div>
+            <input id="name" name="name" type="text" required/>
+            </div>
+
+            
+            <div>
+            <label for="username">Email</label></div>
+            <input id="email" name="email" type="email" required/>
+<div>
+</fieldset>
+
+    <fieldset>
+            
+                <legend>Payment Information</legend>
+                <div>
+                <select id="payment information" name="type"></div>
+                  <option value="visa">Visa</option>
+                  <option value="mastercard">Mastercard</option>
+                  <option value="american-express">American Express</option>
+                  <option value="discover">Discover</option>
+                </select>
+              </label>
+              <label for="name">Credit Card Number</label>
+            </div>
+            
+                
+    
+                <div><input type="number"placeholder="xxxx xxxx xxxx xxxx" required/>
+                </div>
+            <div>
+                <label for="expiration-date">Expiration Date</label></div>
+    
+                <div><input id="expiration-date" name="expiration-date" type="text" required/>
+                </div>
+                
+            </fieldset>
+                <div>
+                    <input type="submit" value="Submit Payment" />
+                </div>
+        </form>
+</body>
+</html>
